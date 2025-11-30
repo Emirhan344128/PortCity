@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>PortCity - Aktiviteler & Mekanlar</title>
+    <style>
+        body { font-family: Arial; margin:0; background: linear-gradient(to bottom, #c1e3f3, #e0f7fa); }
+        .menu { background:#004466; padding:15px; text-align:center; }
+        .menu a { color:white; text-decoration:none; margin:0 20px; font-weight:bold; }
+        .container { width:85%; margin:20px auto; background:white; padding:20px; border-radius:8px; }
+        h1, h2 { color:#004466; }
+
+        
+        .activity-list { display:flex; flex-wrap:wrap; gap:15px; margin-top:15px; }
+        .activity-item { display:flex; align-items:center; background:#f2fbff; border-radius:8px; padding:10px; border:1px solid #d8eef5; width:48%; }
+        .activity-item img { width:150px; height:100px; object-fit:cover; border-radius:5px; margin-right:10px; }
+        .activity-item div { flex:1; }
+
+        table { width:100%; border-collapse:collapse; margin-top:20px; }
+        th, td { border:1px solid #004466; padding:8px; text-align:center; }
+        th { background-color:#004466; color:white; }
+
+        footer { background:#003344; color:white; padding:10px; margin-top:20px; text-align:center; }
+
+        @media (max-width:700px){
+            .activity-item { flex-direction: column; align-items:flex-start; }
+            .activity-item img { margin-bottom:5px; width:100%; height:auto; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="about.html">Hakkında</a>
+    <a href="services.html">Aktiviteler</a>
+    <a href="contact.html">İletişim</a>
+</div>
+
+<div class="container">
+    <h1>PortCity Aktiviteler & Mekanlar</h1>
+    <p>PortCity Marina, sabahın huzurundan akşamın eğlencesine kadar dolu dolu aktiviteler sunar. Aşağıda marina konseptine uygun sabah ve akşam aktivitelerini görebilirsiniz.</p>
+
+    <h2>Aktiviteler</h2>
+    <div class="activity-list">
+        
+        <div class="activity-item">
+            <img src="https://www.visittci.com/core/grace-bay-beach-yoga-class_600x400.jpg" alt="Yoga Dersi">
+            <div>
+                <b>Yoga Dersi</b>
+                <p>Üst düzey yoga hocalarımızla sabaha huzurlu başlayın, zihninizi açan bir egzersiz deneyimi yaşayın.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://greatruns.com/wp-content/uploads/2016/09/mission-beach-thing-to-do-700x438.jpg" alt="Sahil Yürüyüşü">
+            <div>
+                <b>Sahil Yürüyüşü</b>
+                <p>Deniz manzarası eşliğinde sabah yürüyüşü, güne enerjik başlamak için ideal.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://lovevelo.travel/_next/image?url=https%3A%2F%2Fdedicated-angel-d0555d950b.media.strapiapp.com%2FPortugal_10_04912407b4.jpg&w=1440&q=75&dpl=dpl_CfW5vHcp2nPP3RxNxTJGM6i7yivn" alt="Bisiklet Turu">
+            <div>
+                <b>Bisiklet Turu</b>
+                <p>Sahil boyunca bisiklet sürün, hem spor yapın hem de denizin keyfini çıkarın.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://glamadelaide.com.au/wp-content/uploads/2022/01/online-pilates-hero.jpg" alt="Açık Hava Pilatesi">
+            <div>
+                <b>Açık Hava Pilatesi</b>
+                <p>Sahil kenarında pilates ile kaslarınızı güçlendirin, günü tazeleyin.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://www.st-martin.org/assets/uploads/sites/3/2024/09/dsc09233.jpg" alt="Meditasyon">
+            <div>
+                <b>Meditasyon</b>
+                <p>Sakin sahil alanında meditasyon yaparak zihninizi ve ruhunuzu dinlendirin.</p>
+            </div>
+        </div>
+
+        
+        <div class="activity-item">
+            <img src="https://www.grandlady.com/img/boat-at-sunset.jpg" alt="Tekne Turu">
+            <div>
+                <b>Tekne Turu</b>
+                <p>Gün batımı manzarası eşliğinde marina turu yapın, denizden şehir ışıklarını izleyin.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/surfcityusa/28c872ff_c466_47a8_8c57_72063fec5356_6dcf1abf-7308-4a98-86d3-d8b7a384d74c.jpg" alt="Akşam Konseri">
+            <div>
+                <b>Akşam Konseri</b>
+                <p>Marina açık hava konser alanında ünlü sanatçılarla akşamınızı eğlenceli geçirin.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://yekakademi.com/wp-content/uploads/2024/09/Ascilik-Ustalik-Belgesi.jpg" alt="Gastronomi Etkinliği">
+            <div>
+                <b>Gastronomi Etkinliği</b>
+                <p>Fine dining restoranlarımızda özel menüler ve workshoplarla lezzet deneyimi yaşayın.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://i0.wp.com/www.capemay.com/blog/wp-content/uploads/2015/07/Beach-Movie.jpg?ssl=1" alt="Sahil Sinema">
+            <div>
+                <b>Sahil Sinema</b>
+                <p>Açık hava sahil sinemasıyla filmleri yıldızlar altında izleyin.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="https://www.barefootbeachcafe.com/wp-content/uploads/2021/11/BarefootBoys2-1080x675.jpg" alt="Canlı Müzik">
+            <div>
+                <b>Canlı Müzik</b>
+                <p>Marina kafelerinde akşam canlı müzik eşliğinde keyifli vakit geçirin.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>Haftalık Program</h2>
+    <table>
+        <tr>
+            <th>Gün</th>
+            <th>Sabah Aktivitesi</th>
+            <th>Başlangıç-Süre</th>
+            <th>Akşam Aktivitesi</th>
+            <th>Başlangıç-Süre</th>
+        </tr>
+        <tr>
+            <td>Pazartesi</td>
+            <td>Yoga Dersi</td>
+            <td>09:00-10:30</td>
+            <td>Tekne Turu</td>
+            <td>19:00-21:00</td>
+        </tr>
+        <tr>
+            <td>Salı</td>
+            <td>Sahil Yürüyüşü</td>
+            <td>10:00-11:00</td>
+            <td>Akşam Konseri</td>
+            <td>20:00-22:00</td>
+        </tr>
+        <tr>
+            <td>Çarşamba</td>
+            <td>Bisiklet Turu</td>
+            <td>08:30-10:00</td>
+            <td>Gastronomi Etkinliği</td>
+            <td>18:30-21:00</td>
+        </tr>
+        <tr>
+            <td>Perşembe</td>
+            <td>Açık Hava Pilatesi</td>
+            <td>09:30-11:00</td>
+            <td>Sahil Sinema</td>
+            <td>19:30-21:30</td>
+        </tr>
+        <tr>
+            <td>Cuma</td>
+            <td>Meditasyon</td>
+            <td>10:00-11:00</td>
+            <td>Canlı Müzik</td>
+            <td>20:00-21:30</td>
+        </tr>
+        <tr>
+            <td>Cumartesi</td>
+            <td>Yoga Dersi</td>
+            <td>08:30-10:00</td>
+            <td>Akşam Konseri</td>
+            <td>18:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Pazar</td>
+            <td>Sahil Yürüyüşü</td>
+            <td>09:00-10:30</td>
+            <td>Tekne Turu</td>
+            <td>19:00-21:00</td>
+        </tr>
+    </table>
+
+</div>
+
+<footer>© 2025 PortCity</footer>
+
+</body>
+</html>
